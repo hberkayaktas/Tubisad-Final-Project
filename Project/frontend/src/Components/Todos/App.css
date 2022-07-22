@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap');
+
+
+.my_h2{
+  opacity: 1;
+}
+.my_h3{
+  border-bottom: 5px solid;
+  margin-bottom: 10px;
+}
+.my_label {
+  width: 25px;
+  height: 25px;
+  background: #000000;
+  position: absolute;
+  border-radius: 50%;
+  left: -6px;
+  top: 1px;
+  z-index: -1;
+  border: 1px solid #00000025;
+}
+
+.colorpicker {
+  width: 50px;
+  position: relative;
+  margin-right: 15px;
+}
+
+.my_form {
+  position: relative;
+  width: 500px;
+}
+.note_input{
+  align-items: flex-start;
+}
+.search{
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #00000050;
+  border-radius: 18px;
+}
+.note_input > textarea{
+  background: #ffffff;
+  border: 1px solid #00000050;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  transition: .5s all;
+  width: 100%;
+  box-shadow: 6px 6px 20px 0px #c3c1c1;
+}
+.colordot{
+  max-width: fit-content;
+  left: 15px;
+  position: relative;
+  z-index: 1;
+}
+.my_btn{
+  right: 19px;
+  position: absolute;
+  bottom: -16px;
+  padding: 10px;
+  background: transparent;
+  border-radius: 5px;
+  margin-left: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.my_btn:hover{
+  opacity: .75;
+}
+.my_btn:active{
+  opacity: 1;
+}
+.my_card{
+  position: relative;
+  padding-right: 25px;
+}
+.btn_status{
+  background: transparent;
+  border: none;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 25px;
+  height: 25px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.btn_status:hover{
+  opacity: .5;
+}
+.btn_status i{
+  width: 25px;
+  height: 25px;
+
+}
+.keep{
+  animation: rotate360 infinite 1s linear;
+}
+@keyframes rotate360{
+  100%{
+        transform: rotate(360deg); 
+  }
+}
+.bg-blue {
+  background: #4fc3f7;
+  color:#ffffff;
+}
+
+.bg-orange {
+  background: #ffd54f !important;
+  
+}
+
+.bg-purple {
+  background: #ba68c8;
+  color:#ffffff;
+}
+
+.bg-pink {
+  background: #f06292;
+  color:#ffffff;
+}
+
+.bg-green {
+  background: #aed581;
+  color:#ffffff;
+}
+.btn-bg-green{
+  background-color: #198754;
+  border-color: #198754;
+  border: 1px solid #00000050;
+  font-family: 'Roboto', sans-serif;
+  font-size: .875rem;
+  color: #ffffff;
+}
